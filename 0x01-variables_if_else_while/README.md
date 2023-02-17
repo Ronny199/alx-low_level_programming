@@ -1,1 +1,1 @@
-lowercase alphabetical letters
+lower case excluding e and q

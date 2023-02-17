@@ -1,1 +1,1 @@
-lower case excluding e and q
+Positive anything is better than negative nothing

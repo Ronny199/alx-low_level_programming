@@ -1,22 +1,18 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
- * main - printing base 16 numbers
+ * main - printing single digits in base 10
  *
- * return 0
+ * return: 0
  */
-
 int main(void)
 {
-	int (num);
-	char (la);
+	int num;
 
-	for (num = 0; num <= 9; num++)
-		putchar((num % 10) + '0');
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '10');
 
-	putchar('\n');
+	putchar("\n");
 
 	return (0);
 }

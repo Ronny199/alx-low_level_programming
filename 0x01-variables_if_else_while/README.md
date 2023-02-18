@@ -1,1 +1,1 @@
-print all possible combination of single-digit numbers
+assign random number to variable n each time of execution

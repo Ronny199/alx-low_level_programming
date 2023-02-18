@@ -1,9 +1,10 @@
-#include <stdio>
-
+#include <stdio.h>
+#include <ctype.h>
 /**
- * main - lowecase and uppercase alphabets
+ * main - Entrypoint
  *
- * return: 0
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {

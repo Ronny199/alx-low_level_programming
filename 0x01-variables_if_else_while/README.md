@@ -1,1 +1,1 @@
-lowercase alphabets
+lowercase, uppercase and a new line

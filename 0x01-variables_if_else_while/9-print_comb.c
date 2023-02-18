@@ -1,23 +1,25 @@
-#include <stdio>
-
+#include <stdio.h>
+#include <ctype.h>
 /**
- * main - printing combination of single digits
+ * main - Entrypoint
  *
- * return: 0
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
-	int n;
+	int num;
 
-	for (n = 48; n < 58; n++)
+	for (num = 48; num < 58; num++)
 	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	putchar("\n");
+		putchar(num);
+	}
 
+	if (num != 57)
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
 	return (0);
 }

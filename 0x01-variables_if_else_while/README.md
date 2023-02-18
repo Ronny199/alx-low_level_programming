@@ -1,1 +1,1 @@
-single digit base 10 numbers from 0
+print all possible combinations of single-digit numbers

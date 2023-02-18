@@ -1,1 +1,1 @@
-lowercase, uppercase and a new line
+alphABET and new line

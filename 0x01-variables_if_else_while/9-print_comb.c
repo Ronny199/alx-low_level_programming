@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - Entrypoint
  *
@@ -20,6 +19,8 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
+
 	putchar('\n');
+
 	return (0);
 }

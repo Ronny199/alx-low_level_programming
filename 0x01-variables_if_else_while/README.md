@@ -1,1 +1,1 @@
-print all possible combinations of single-digit numbers
+base 16 numbers and new line

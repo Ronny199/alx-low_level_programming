@@ -9,13 +9,13 @@
 int main(void)
 {
 	int num;
-	chae la;
+	char la;
 
 	for (num = 0; num < 10; num++)
 	{
 		putchar((num % 10) + '0');
 	}
-	for (la = 'a'; l <= 'f'; la++)
+	for (la = 'a'; la <= 'f'; la++)
 	{
 		putchar(la);
 	}

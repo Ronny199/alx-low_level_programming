@@ -1,1 +1,1 @@
-alphabets less 'e' and 'q'
+base 16 numbers

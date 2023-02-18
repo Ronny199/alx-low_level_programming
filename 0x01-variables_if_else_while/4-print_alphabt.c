@@ -1,25 +1,20 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - Entry point
+ * main - Entrypoint
  *
- * return: Always 0 (success)
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
-	int letter;
+	char la;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		putchar(letter);
+		if (la != 'e' && la != 'q')
+			putchar(la);
 	}
-	{
-	if (letter != 'e';&&letter != 'q')
-	{
-		putchar(letter);
-	}
-
 	putchar('\n');
-
 	return (0);
 }

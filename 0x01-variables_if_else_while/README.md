@@ -1,1 +1,1 @@
-single digit base 10 numbers
+alphabets less 'e' and 'q'

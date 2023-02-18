@@ -1,17 +1,20 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - lowecase alphabet letters and new line
- * return: 0 always
+ * main - Entrypoint
+ *
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
-	char ch;
+	int letter;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(ch);
+		letter = tolower(letter);
+		putchar(letter);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }

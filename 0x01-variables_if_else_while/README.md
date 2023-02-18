@@ -1,1 +1,1 @@
-lowercasing alphabets
+lowercase alphabets

@@ -3,18 +3,25 @@
 /**
  * main - Entrypoint
  *
+ * description - alphABET and new line
+ *
  * Return: Always 0 (success)
  *
  */
 int main(void)
 {
-	int letter;
+	char ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	for (letter = 'A'; letter <= 'Z'; letter++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(letter);
+		putchar(ch);
 	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+
 	putchar('\n');
+
 	return (0);
 }

@@ -1,1 +1,1 @@
-alphABET and new line
+reverse alphabets

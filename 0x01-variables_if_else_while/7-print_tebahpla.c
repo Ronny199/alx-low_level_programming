@@ -1,18 +1,20 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - reversing lowercase alphabets
+ * main - Entrypoint
  *
- * return: 0
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
-	char le;
+	int letter;
 
-	for (le = 'z'; le >= 'a'; le--)
-		putchar(le);
-
-	putchar("\n");
-
+	for (letter = 'z'; letter >= 'a'; letter++)
+	{
+		letter = tolower(letter);
+		putchar(letter);
+	}
+	putchar('\n');
 	return (0);
 }

@@ -1,9 +1,9 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - lowercase alphabet printing followed by new line, excluding e and q
+ * main - Entry point
  *
- * return: always 0
+ * return: Always 0 (success)
  */
 int main(void)
 {
@@ -11,11 +11,11 @@ int main(void)
 
 	for (la = 'a'; la <= 'z'; la++)
 	{
-		if (la != 'e' && la != 'q')
+		if (la != 'e'; && la != 'q')
 			putchar(la);
 	}
 
-	putchar ('\n');
+	putchar('\n');
 
-	return (0);
+	return (0)
 }

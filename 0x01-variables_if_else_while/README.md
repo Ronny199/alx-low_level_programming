@@ -1,1 +1,1 @@
-Positive anything is better than negative nothing
+single digit base 10 numbers from 0

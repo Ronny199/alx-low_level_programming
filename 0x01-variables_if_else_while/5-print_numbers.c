@@ -1,17 +1,21 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
- * main - print all strings (0-9)
- * return: 0
+ * main - Entrypoint
+ *
+ * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
 	int num;
 
-	for (num = 0; num <= 9; num++)
-		printf("%d", num);
+	for (num = 0; num <= 'z'; num++)
+	{
+		putchar(num);
+	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }

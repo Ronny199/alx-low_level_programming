@@ -1,21 +1,19 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - Entrypoint
  *
- * Return: Always 0 (success)                      */
+ * Return: Always 0 (success)
+ *
+ */
 int main(void)
 {
-	int c;
+	int num;
 
-	c =0
-
-	while (c < 10)
+	for (num = 0; num < 10; num++)
 	{
-		putchar(c + '0');
-		c++
+		putchar((num % 10) + '0');
 	}
-
 	putchar('\n');
-
 	return (0);
 }

@@ -1,1 +1,1 @@
-base 16 numbers and new line
+single digit base 10 numbers

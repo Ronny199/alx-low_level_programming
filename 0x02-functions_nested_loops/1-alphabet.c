@@ -4,7 +4,7 @@
  * description - print all alphabet in lowercase and a new line
  * return : always 0
  */
-print_alphabet(void)
+void print_alphabet(void)
 {
 	char letter;
 

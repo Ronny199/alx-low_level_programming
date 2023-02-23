@@ -1,1 +1,1 @@
-print a square
+Fizz-Buzz test

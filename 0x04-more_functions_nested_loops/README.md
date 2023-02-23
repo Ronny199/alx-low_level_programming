@@ -1,1 +1,1 @@
-uppercase character.
+checks for a digit

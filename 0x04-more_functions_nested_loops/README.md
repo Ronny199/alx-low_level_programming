@@ -1,1 +1,1 @@
-square
+printing a triangle

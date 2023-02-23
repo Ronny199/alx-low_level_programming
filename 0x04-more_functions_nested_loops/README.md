@@ -1,1 +1,1 @@
-print numbers
+multiplication

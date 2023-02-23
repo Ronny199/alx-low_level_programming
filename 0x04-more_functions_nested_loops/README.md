@@ -1,1 +1,1 @@
-checks for a digit
+multiplication

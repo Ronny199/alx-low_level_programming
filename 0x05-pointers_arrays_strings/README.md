@@ -1,4 +1,4 @@
-C - Pointers, arrays and strings:
+C- Pointers, arrays and strings:
 0.function taking a pointer to an int as parameter and updates value to 98.
 1.function swaping values of two integers.
 2.function returning length of a string.

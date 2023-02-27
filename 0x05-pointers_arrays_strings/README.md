@@ -9,3 +9,5 @@ C- Pointers, arrays and strings:
 7.function that prints half of a string
 8.function printing n elements of an array of integers
 9.function copying the string pointed to by src
+10.convert a string to an integer.
+11.generate random valid passwords for a program

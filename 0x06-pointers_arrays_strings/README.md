@@ -10,6 +10,6 @@
 7.function that encodes a string into 1337.
 8.function that encodes a string using rot13.
 9.function that prints an integer.
-10.Add one line to code, so that the program prints a[2] = 98, followed by a new line.
+10.Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
 11.function that adds two numbers.
 12.function that prints a buffer.
